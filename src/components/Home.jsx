@@ -344,7 +344,7 @@ export default function HomePage() {
           </div>
 
           <p className="text-center text-[#4A5750] text-sm mt-20">
-            © 2035 by Coffee Club.
+            © 2035 by The Fika Coffee.
           </p>
         </section>
 
