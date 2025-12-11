@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import Image from "../../assets/image/favicon.jpg";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white z-50 shadow-md px-12 py-6 flex items-center justify-between text-gray-800">
@@ -30,7 +30,14 @@ export default function Navbar() {
       <div className="flex items-center gap-6">
         <span className="cursor-pointer">🛒 0</span>
         <span className="cursor-pointer flex items-center gap-2">
-          <span className="w-8 h-8 rounded-full bg-gray-300"></span>
+        <span className="w-8 h-8 rounded-full overflow-hidden">
+          <img 
+            src={Image} 
+            className="w-full h-full object-cover" 
+            alt=""
+          />
+        </span>
+
           Log In
         </span>
       </div>
