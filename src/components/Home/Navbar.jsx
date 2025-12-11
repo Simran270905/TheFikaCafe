@@ -18,8 +18,12 @@ export default function Navbar() {
             <Link to="/subscription">Subscriptions</Link>
           </li>
 
-          <li className="hover:text-gray-500 cursor-pointer">About</li>
-          <li className="hover:text-gray-500 cursor-pointer">FAQ</li>
+          <li className="hover:text-gray-500 cursor-pointer">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="hover:text-gray-500 cursor-pointer">
+            <Link to="/faq">FAQ</Link>
+            </li>
         </ul>
       </div>
 
