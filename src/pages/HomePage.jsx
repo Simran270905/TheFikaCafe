@@ -10,7 +10,7 @@ import Animation from "../components/Home/Animation";
 
 export default function HomePage() {
   return (
-    <div className="w-full min-h-screen bg-gray-100 mt-17">
+    <div className="w-full min-h-screen bg-gray-100 mt-15">
       <Navbar />
 
       {/* HERO - Page Load Animation */}

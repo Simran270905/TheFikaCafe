@@ -23,7 +23,7 @@ export default function AboutSection({ title, subtitle, text, imageLeft, image }
         <div>
           <img
             src={image}
-            className="w-full h-auto rounded-md object-cover"
+            className="w-full h-[700px] rounded-md object-cover"
           />
         </div>
 
@@ -32,7 +32,11 @@ export default function AboutSection({ title, subtitle, text, imageLeft, image }
           <p className="text-gray-700 leading-relaxed text-lg">
             Our beans are ethically sourced from farmers who share our love for quality and sustainability. Each batch is carefully roasted to highlight its unique character — the aroma, the flavor, and the story behind every bean. We blend tradition with innovation, ensuring that every cup of Fika Coffee delivers warmth, comfort, and a taste that lingers long after the last sip.
             <br></br>
-            Fika Coffee isn’t just a beverage; it’s an experience we want to bring into your everyday life. Whether you’re starting your morning ritual, sharing a moment with someone you love, or taking a quiet break for yourself, we’re here to make those moments more meaningful. With every cup, we hope to inspire you to slow down, connect, and enjoy life — one sip at a time.
+            Fika Coffee isn’t just a beverage; it’s an experience we want to bring 
+            into your everyday life. Whether you’re starting your morning ritual, 
+            sharing a moment with someone you love, or taking a quiet break for yourself, 
+            we’re here to make those moments more meaningful. With every cup, we hope to 
+            inspire you to slow down, connect, and enjoy life — one sip at a time.
           </p>
         </div>
       </div>

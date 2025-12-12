@@ -3,7 +3,7 @@ import Image5 from "../../assets/image/hero-coffee.jpg";
 export default function Hero() {
   return (
     <section>
-      <div className="max-w-lg flex flex-col gap-11 mt-8">
+      <div className="max-w-lg flex flex-col gap-11 mt-15 p-5">
           <h1
             style={{
               fontFamily: "'Inter', serif",
@@ -24,7 +24,7 @@ export default function Hero() {
         <img
           src={Image5}
           alt="Coffee subscription box"
-          className="w-[1500px] h-[800px] object-cover object-center mt-15"
+          className="w-[1500px] h-[800px] object-cover object-center mt-15 mb-2"
         />
 
       </section>

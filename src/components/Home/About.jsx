@@ -6,7 +6,7 @@ export default function AboutSection() {
       <img
         src={Image4}
         alt="About Coffee"
-        className="w-full h-[400px] md:h-[500px] object-cover"
+        className="w-full h-[400px] md:h-[400px] object-cover"
       />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-start px-12 py-12 text-white">
         <h2 className="text-4xl font-bold mb-2 font-serif text-black">About Us</h2>
