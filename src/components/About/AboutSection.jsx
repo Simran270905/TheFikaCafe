@@ -1,6 +1,6 @@
 export default function AboutSection({ title, subtitle, text, imageLeft, image }) {
   return (
-    <section className="w-full bg-white font-['Poppins',sans-serif] px-6 md:px-16 lg:px-24 py-20">
+    <section className="w-full bg-white font-['Poppins',sans-serif] px-6 md:px-16 lg:px-24 py-20 mt-8">
 
       {/* Heading */}
       <div className="mb-14">
@@ -30,16 +30,9 @@ export default function AboutSection({ title, subtitle, text, imageLeft, image }
         {/* Description */}
         <div>
           <p className="text-gray-700 leading-relaxed text-lg">
-            I'm a paragraph. Click here to add your own text and edit me. It’s easy. 
-            Just click “Edit Text” or double click me to add your own content and make changes to the font. 
-            Feel free to drag and drop me anywhere you like on your page. 
-            I’m a great place for you to tell a story and let your users know a little more about you.
+            Our beans are ethically sourced from farmers who share our love for quality and sustainability. Each batch is carefully roasted to highlight its unique character — the aroma, the flavor, and the story behind every bean. We blend tradition with innovation, ensuring that every cup of Fika Coffee delivers warmth, comfort, and a taste that lingers long after the last sip.
             <br></br>
-            This is a great space to write a long text about your company and your services. 
-            You can use this space to go into a little more detail about your company. 
-            Talk about your team and what services you provide. 
-            Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. 
-            Make your company stand out and show your visitors who you are.
+            Fika Coffee isn’t just a beverage; it’s an experience we want to bring into your everyday life. Whether you’re starting your morning ritual, sharing a moment with someone you love, or taking a quiet break for yourself, we’re here to make those moments more meaningful. With every cup, we hope to inspire you to slow down, connect, and enjoy life — one sip at a time.
           </p>
         </div>
       </div>

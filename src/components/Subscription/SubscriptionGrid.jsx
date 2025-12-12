@@ -1,15 +1,15 @@
 import SubscriptionCard from "./SubscriptionCard";
 
 // Import all product images
-import Kenya from "../../assets/products/Kenya.jpg";
-import California from "../../assets/products/California.jpg";
-import Guatemala from "../../assets/products/Guatemala.jpg";
+import subscription1 from "../../assets/products/subscription1.jpg";
+import subscription2 from "../../assets/products/subscription2.jpg";
+import subscription3 from "../../assets/products/subscription3.jfif";
 
 export default function SubscriptionGrid() {
   const products = [
-    { img: Kenya, name: "Coffee of the Month", price: "$15.00", badge: "Best Seller" },
-    { img: California, name: "Coffee Club's Roaster's Pick", price: "$15.00" },
-    { img: Guatemala, name: "Coffee Club's Strater Kit", price: "$15.00" },
+    { img:subscription1, name: "Coffee of the Month", price: "₹15.00", badge: "Best Seller" },
+    { img: subscription2, name: "Coffee Club's Roaster's Pick", price: "₹15.00" },
+    { img: subscription3, name: "Coffee Club's Strater Kit", price: "₹15.00" },
     
   ];
 
